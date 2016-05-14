@@ -1,0 +1,719 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?22yp3o');
+    src:    url('fonts/icomoon.eot?22yp3o#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?22yp3o') format('truetype'),
+        url('fonts/icomoon.woff?22yp3o') format('woff'),
+        url('fonts/icomoon.svg?22yp3o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-account_circle:before {
+    content: "\e853";
+}
+.icon-add_location:before {
+    content: "\e567";
+}
+.icon-archive:before {
+    content: "\e149";
+}
+.icon-poll:before {
+    content: "\e801";
+}
+.icon-attach_file:before {
+    content: "\e226";
+}
+.icon-phone:before {
+    content: "\e0cd";
+}
+.icon-cancel:before {
+    content: "\e5c9";
+}
+.icon-check_circle:before {
+    content: "\e86c";
+}
+.icon-laptop:before {
+    content: "\e31e";
+}
+.icon-contact_mail:before {
+    content: "\e0d0";
+}
+.icon-contact_phone:before {
+    content: "\e0cf";
+}
+.icon-desktop_mac:before {
+    content: "\e30b";
+}
+.icon-desktop_windows:before {
+    content: "\e30c";
+}
+.icon-markunread:before {
+    content: "\e159";
+}
+.icon-favorite:before {
+    content: "\e87d";
+}
+.icon-favorite_border:before {
+    content: "\e87e";
+}
+.icon-featured_play_list:before {
+    content: "\e06d";
+}
+.icon-fiber_new:before {
+    content: "\e05e";
+}
+.icon-fingerprint:before {
+    content: "\e90d";
+}
+.icon-font_download:before {
+    content: "\e167";
+}
+.icon-help:before {
+    content: "\e887";
+}
+.icon-language:before {
+    content: "\e894";
+}
+.icon-laptop_windows:before {
+    content: "\e321";
+}
+.icon-room:before {
+    content: "\e8b4";
+}
+.icon-lock_open:before {
+    content: "\e898";
+}
+.icon-lock_outline:before {
+    content: "\e899";
+}
+.icon-mail_outline:before {
+    content: "\e0e1";
+}
+.icon-message:before {
+    content: "\e0c9";
+}
+.icon-move_to_inbox:before {
+    content: "\e168";
+}
+.icon-person_add:before {
+    content: "\e7fe";
+}
+.icon-person_pin:before {
+    content: "\e55a";
+}
+.icon-person_pin_circle:before {
+    content: "\e56a";
+}
+.icon-phone_android:before {
+    content: "\e324";
+}
+.icon-phone_iphone:before {
+    content: "\e325";
+}
+.icon-picture_as_pdf:before {
+    content: "\e415";
+}
+.icon-pin_drop:before {
+    content: "\e55e";
+}
+.icon-polymer:before {
+    content: "\e8ab";
+}
+.icon-school:before {
+    content: "\e80c";
+}
+.icon-search:before {
+    content: "\e8b6";
+}
+.icon-send:before {
+    content: "\e163";
+    vertical-align: middle;
+}
+.icon-sentiment_satisfied:before {
+    content: "\e813";
+}
+.icon-sentiment_very_satisfied:before {
+    content: "\e815";
+}
+.icon-settings:before {
+    content: "\e8b8";
+}
+.icon-settings_applications:before {
+    content: "\e8b9";
+}
+.icon-star_border:before {
+    content: "\e83a";
+}
+.icon-stars:before {
+    content: "\e8d0";
+}
+.icon-thumb_up:before {
+    content: "\e8dc";
+}
+.icon-work:before {
+    content: "\e8f9";
+}
+.icon-keyboard:before {
+    content: "\e900";
+}
+.icon-display:before {
+    content: "\e901";
+}
+.icon-mobile:before {
+    content: "\e902";
+}
+.icon-earth:before {
+    content: "\e903";
+}
+.icon-attachment:before {
+    content: "\e904";
+}
+.icon-warning:before {
+    content: "\e905";
+}
+.icon-embed2:before {
+    content: "\e906";
+}
+.icon-terminal:before {
+    content: "\e907";
+}
+.icon-share2:before {
+    content: "\e908";
+}
+.icon-mail:before {
+    content: "\e909";
+}
+.icon-mail2:before {
+    content: "\e90a";
+}
+.icon-mail3:before {
+    content: "\e90b";
+}
+.icon-mail4:before {
+    content: "\e90c";
+}
+.icon-google:before {
+    content: "\e90e";
+}
+.icon-google2:before {
+    content: "\e90f";
+}
+.icon-google3:before {
+    content: "\e910";
+}
+.icon-google-plus:before {
+    content: "\e911";
+}
+.icon-google-plus3:before {
+    content: "\e912";
+}
+.icon-hangouts:before {
+    content: "\e913";
+}
+.icon-google-drive:before {
+    content: "\e914";
+}
+.icon-facebook:before {
+    content: "\e915";
+}
+.icon-facebook2:before {
+    content: "\e916";
+}
+.icon-instagram:before {
+    content: "\e917";
+}
+.icon-whatsapp:before {
+    content: "\e918";
+}
+.icon-telegram:before {
+    content: "\e919";
+}
+.icon-twitter:before {
+    content: "\e91a";
+}
+.icon-youtube:before {
+    content: "\e91b";
+}
+.icon-dropbox:before {
+    content: "\e91c";
+}
+.icon-github:before {
+    content: "\e91d";
+}
+.icon-blogger:before {
+    content: "\e91e";
+}
+.icon-blogger2:before {
+    content: "\e91f";
+}
+.icon-tux:before {
+    content: "\e920";
+}
+.icon-appleinc:before {
+    content: "\e921";
+}
+.icon-finder:before {
+    content: "\e922";
+}
+.icon-android:before {
+    content: "\e923";
+}
+.icon-windows:before {
+    content: "\e924";
+}
+.icon-windows8:before {
+    content: "\e925";
+}
+.icon-skype:before {
+    content: "\e926";
+}
+.icon-reddit:before {
+    content: "\e927";
+}
+.icon-paypal:before {
+    content: "\e928";
+}
+.icon-chrome:before {
+    content: "\e929";
+}
+.icon-firefox:before {
+    content: "\e92a";
+}
+.icon-IE:before {
+    content: "\e92b";
+}
+.icon-safari:before {
+    content: "\e92c";
+}
+.icon-file-pdf:before {
+    content: "\e92d";
+}
+.icon-file-word:before {
+    content: "\e92e";
+}
+.icon-file-excel:before {
+    content: "\e92f";
+}
+.icon-libreoffice:before {
+    content: "\e930";
+}
+.icon-html-five:before {
+    content: "\e931";
+}
+.icon-html-five2:before {
+    content: "\e932";
+}
+.icon-css3:before {
+    content: "\e933";
+}
+.icon-git:before {
+    content: "\e934";
+}
+
+
+
+
+
+
+
+
+/* Utilities */
+.u-title{
+	color: black;
+	border-bottom: 2px dashed red;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+
+.u-containerDefault{
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Menu */
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+.MainMenu-link{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	/*line-height: 3.75em;*/
+	line-height: 3.6em;
+	padding: 1em 1em;
+	
+
+
+}
+.MainMenu-link:hover{
+	color: #f00038;
+	font-weight: bold;
+	background: #1f1f1f;
+	border-bottom: 4px solid #f00038;
+}
+
+.MainMenu-link:active{
+	color: gray;
+	font-weight: normal;
+}
+
+
+/* Header */
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/portada.jpg');	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.2em 0;
+}
+
+.Header-image{
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+.Header-imageContainer{
+	margin: 0;
+}
+
+.Header-name,.Header-link{
+	color: white;
+}
+
+.Header-name{
+	font-size: 2.2em;
+	font-weight: 300;
+	margin:0;
+}
+
+.Header-link{
+	font-size:  2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-link:hover{
+	color: black;
+}
+
+.Header-link:active{
+	color: orange;
+}
+/* Profile */
+
+.Profile{
+	text-align: center;
+
+}
+
+.Profile-skill{
+	text-align: center;
+	display: inline-block;
+	width: 50.0%;
+	padding-right: 1em;
+ 	padding-left: 1em;
+}
+
+.Profile-link{
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
+}	
+.Profile-linkDL{
+  color: orange;
+  font-size: 4em;
+  text-decoration: none;
+  padding: .5em .5em;  
+}
+
+.Profile-linkDL:hover{
+  color: red;
+}
+
+
+.Profile-link:hover{
+	background: red;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;	
+}
+
+.Profile-link:active{
+	background: gray;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;	
+}
+
+/*Progress*/
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+       -o-transition: width .6s ease;
+          transition: width .6s ease;
+}
+.progress-striped .progress-bar,
+.progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+.progress.active .progress-bar,
+.progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+.progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+.progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+.progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+
+/*education*/
+.Education{
+  margin-top:  2em;
+  text-align: center;
+}
+
+.Education-item{
+  vertical-align: top;
+  display: inline-block;
+  width: 30em;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+.Education-item p, h3{
+  margin: 0;
+
+
+}
+
+.Education-year{
+  background: red;
+  color: white;
+  border-radius: 1em;
+  padding: 0 1em;
+  margin-top: 0;
+}
+
+
+/*Experience*/
+
+.Experience{
+  margin-top:  2em;
+  text-align: center;
+}
+
+.Experience-item{
+  vertical-align: top;
+  display: inline-block;
+  width: 30em;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+.Experience-item p, h3{
+  margin: 0;
+
+
+}
+
+.Experience-work{
+  background: orange;
+  color: white;
+  border-radius: 1em;
+  padding: 0 1em;
+  margin-top: 0;
+}
+
+/* Work */
+.Work{
+	margin-top:  2em;
+	text-align: center;
+}
+
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+
+.Work-imageContainer{
+	margin: 0;
+}
+
+.Work-imageDescription{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;	
+
+}
+
+/* Footer*/
+
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+
+}
+
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+
+
+.Footer-title{
+	color: white;
+	font-weight: bold;
+  font-size: 1.75em;
+}
+
+.Footer-description{
+	color: white;
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+.Footer-formInput,.Footer-textArea{
+	background: white;
+	border: none;
+	display: block;
+	border-radius: .21em;
+	margin: 0 auto 1em;
+  padding-left: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+
+.Footer-textArea{
+	resize: none;
+}
+
+.Footer-button{
+	background: orange;
+	color: white;
+	border: none;
+	border-radius: 1em;
+	padding: .3em 1em;
+}
+
+.Footer-button:hover{
+	background: red;
+	color: white;
+	border: none;
+	border-radius: 1em;
+	padding: .3em 1em;
+}
+
+.Footer-button:active{
+	background: gray;
+	color: white;
+	border: none;
+	border-radius: 1em;
+	padding: .3em 1em;
+}
+
+
+

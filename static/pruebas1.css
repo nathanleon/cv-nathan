@@ -1,0 +1,101 @@
+
+.u-title{
+
+}
+
+.Header{ 
+	background: gray;
+	/*display: block;*/
+	display: inline-block;
+	/*display: none;*/
+
+}
+
+.Header-imageContainer{
+
+}
+
+.Header-name{
+
+}
+
+
+.MainMenu{
+
+}
+
+.Profile{
+	display: inline-block;
+	background: blue;
+	vertical-align: top;
+}
+
+.Work{
+
+}
+
+.Footer{
+
+}
+
+
+
+_____________________________
+
+
+
+
+
+
+
+.u-title{
+
+}
+
+.Header{
+	background: gray;
+ 	position: relative;
+ 	/*top: 20px;*/
+ 	/*bottom: 0px;*/
+	/*display: inline-block;*/
+
+}
+
+.Header-imageContainer{
+
+}
+
+.Header-name{
+
+}
+
+
+.MainMenu{
+	position: fixed;
+	background: green;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	left: 0;
+
+}
+
+.Profile{
+	background: lightgray;
+	position: relative;
+}
+
+.Profile-span{
+	font-weight: bold;
+	position:  relative;
+	top: 20px;
+	left: 20px;
+}
+
+.Work{
+
+}
+
+.Footer{
+
+}
