@@ -334,17 +334,21 @@
 
 
 /* Utilities */
+
 .u-title{
 	color: black;
-	border-bottom: 2px dashed red;
+	border-top: 2px dashed red;
 	font-weight: bold;
 	text-align: center;
-	padding-bottom: 0.5em;
+	padding: 1em 0 0.5em 0;
+  margin-top: 20px;
 }
 
+.borrar{
+}
 
 .u-containerDefault{
-  width: 100vw;
+  /*width: 100vw;*/
   margin: 0 auto;
 }
 
@@ -392,6 +396,9 @@
 	font-weight: normal;
 }
 
+#educacion, #Descarga, #Experiencia, #trabajo, #contacto{
+padding-top: 2.5em;
+}
 
 /* Header */
 .Header{
@@ -407,11 +414,12 @@
 .Header-image{
 	border: 5px solid black;
 	border-radius: 50%;
+
 }
 
 .Header-image:hover{
   border: 5px solid #920000;
-  transition: .7s;
+  transition: .5s;
 }
 
 .Header-imageContainer{
@@ -448,6 +456,16 @@
 
 }
 
+.tittle_{
+border-bottom: 3px solid #ff1f42;
+padding-bottom: 3px;
+}
+
+.tittle_ span{
+vertical-align: text-bottom;
+line-height: 28px;
+}
+
 .Profile-skill{
 	text-align: center;
 	display: inline-block;
@@ -472,13 +490,14 @@ justify-content: center;
 }
 .Profile-linkDL{
   color: orange;
-  font-size: 4em;
+  font-size: 3.5em;
   text-decoration: none;
   padding: .5em .5em;
 }
 
 .Profile-linkDL:hover{
   color: red;
+  transition: .5s;
 }
 
 
@@ -576,7 +595,7 @@ justify-content: center;
 
 /*education*/
 .Education{
-  margin-top:  2em;
+  margin-top:  .5em;
   text-align: center;
 }
 
@@ -731,14 +750,18 @@ height: 12em;
 
 
 @media (max-width:650px) {
-  .MainMenu-list{
-    display: none;
-  }
-  .hide_a{
+.MainMenu-list{
   display: none;
+}
+.hide_a{
+display: none;
+
 }
 .Profile-link{
   line-height: 2em;
+}
+.Profile-skill{
+  width: 60%;
 }
 .Header-image{
 height: 10em;
@@ -747,17 +770,16 @@ height: 10em;
 	margin-right: 0;
  width: 90vw;
 }
-.u-containerDefault{
-  width: 90vw;
-}
 
 .Work-image{
 height: 8em;
+transition: .5s;
 }
 .Footer-form{
   width: 90vw;
 }
 .Footer-formInput, .Footer-textArea{
 font-size: .8em;
+transition: .5s;
 }
 }

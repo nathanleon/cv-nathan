@@ -7,7 +7,6 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="static/normalize.css">
 		<link rel="stylesheet" type="text/css" href="static/portafolio.css">
-
 	</head>
 	<body>
 	<header id="yo" class="Header">
@@ -23,13 +22,15 @@
 			</ul>
 		</nav>
 		<figure class="Header-imageContainer">
-			<img src="images/avatar.jpg" alt="Imagen Personal" class="Header-image">
-			<figcaption class="Header-imageDescription"><p class="Header-name "><span class="icon-fingerprint"></span>Natanael León</p></figcaption>
+			<img  class="Header-image" src="images/avatar.jpg" alt="Imagen Personal" >
+			<figcaption class="Header-imageDescription">
+
+          <p id="perfil" class="Header-name"><span class="icon-fingerprint"></span>Natanael León</p></figcaption>
 		</figure>
 	</header>
-	<section id="perfil" class="Profile">
-	<h2 class="Profile-tittle u-title"><span class="icon-account_circle"> </span>Mi perfil</h2></div>
+	<section class="Profile">
 	<div class="u-containerDefault">
+    <h2><span class="tittle_"><span class="icon-account_circle"></span> Mi perfil</span></h2></div>
 	<p class="Profile-description">Hola! Si <span class="Profile-span">llegaste</span> hasta aqui puedes ver mi portafolio y contactarme</p>
   <div class="profile_link_container">
 		<a class="Profile-link" href="https://twitter.com/Nathan_Leon" target="_blank"><span class="icon-twitter"> </span><span class="hide_a">@Nathan_Leon</span></a>
@@ -40,8 +41,8 @@
 		<p class="Profile-description"><span class="icon-phone_android"></span> 9991-22-02-10</p>
 		<p class="Profile-description"><span class="icon-markunread"></span> nj.leon.15@gmail.com</p>
 		<p class="Profile-description"><span class="icon-room"></span> Mérida, Yucatán</p>
-		<article>
-			<div class="u-containerDefault"><h2 class="Profile-tittle u-title"><span class="icon-stars"> </span>Conjunto de habilidades</h2></div>
+		<article></br>
+			<div class="u-containerDefault"><h3><span class="icon-stars"> </span>Conjunto de habilidades:</h3></div></br>
 			<div class="Profile-skill">
         <!-- Green Progress Bar -->
        			 <div class="progress">
@@ -74,17 +75,16 @@
         		</div>
         </article>
         <section id="Descarga">
-		<div class="u-containerDefault"><h2 class="Profile-tittle u-title"><span class="icon-archive"> </span>Descargar CV</h2></div>
-		<a class="Profile-linkDL" href="#"><span class="icon-file-word"></span></a>
+		<div class="u-containerDefault"><h2 class="u-title"><span class="tittle_"><span class="icon-archive"> </span>Descargar CV</span></h2></div>
+		<!-- <a class="Profile-linkDL" href="#"><span class="icon-file-word"></span></a> -->
 		<a class="Profile-linkDL" href="#"><span class="icon-file-pdf"></span></a>
 		</section>
 	</section>
-
-
-
+  </div>
 	<section id="educacion" class="Education">
-		<h2 class="Education-tittle u-title"><span class="icon-school"> </span>Educación</h2>
-		<article class="Education-item">
+    <div class="u-containerDefault">
+		<h2 class="Education-tittle u-title"><span class="tittle_"><span class="icon-school"> </span>Educación</span></h2></div>
+		<article class="Education-item"  >
 			<h3>PRACTICAS PROFECIONALES</h3>
 			<p><span class="Education-year">2011</span></p>
 			<p>Como alumno del Instituto Tecnológico Superior de Motul desarrollé: Módulos Administrativos, Eventos, Membresías, Area Privada y módulo de suscripción pago atreves de PayPal del Sitio WEB alconpat.org para la Asociación ALCONPAT Internacional.</p>
@@ -140,7 +140,8 @@
 	</section>
 
 	<section id="Experiencia" class="Experience">
-		<h2 class="Experience-tittle u-title"><span class="icon-settings"> </span>Experiencia profesional</h2>
+    <div class="u-containerDefault">
+		<h2 class="Experience-tittle u-title"><span class="tittle_"><span class="icon-settings"> </span>Experiencia profesional</span></h2></div>
 
 		<article class="Experience-item">
 			<h3>Empresa: Constructora del Ing. Jesús Armando Rivera Uc.</h3>
@@ -163,7 +164,8 @@
 	</section>
 
 	<section id="trabajo" class="Work">
-		<h2 class="Work-tittle u-title"><span class="icon-work"> </span>Portafolio</h2>
+  <div class="u-containerDefault">
+		<h2 class="Work-tittle u-title"><span class="tittle_"><span class="icon-work"> </span>Portafolio</span></h2></div>
 		<article class="Work-item">
 			<figure class="Work-imageContainer">
 				<img class="Work-image" src="images/alconpatmundo.png" alt="Es la descripción de mi imagen">
