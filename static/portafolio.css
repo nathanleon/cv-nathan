@@ -343,10 +343,10 @@
 }
 
 
-/*.u-containerDefault{
-  width: 620px;
+.u-containerDefault{
+  width: 100vw;
   margin: 0 auto;
-}*/
+}
 
 /* Menu */
 .MainMenu{
@@ -362,7 +362,7 @@
 .MainMenu-list{
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 .MainMenu-item{
@@ -376,7 +376,7 @@
 	/*line-height: 3.75em;*/
 	line-height: 3.6em;
 	padding: 1em 1em;
-	
+
 
 
 }
@@ -396,7 +396,7 @@
 /* Header */
 .Header{
 	margin-top: 3.75em;
-	background-image: url('../images/portada.jpg');	
+	background-image: url('../images/portada.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -463,12 +463,18 @@
 	padding: .5em 1em;
 	border-radius: 2em;
 	margin-right: .5em;
-}	
+}
+.profile_link_container{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+
+}
 .Profile-linkDL{
   color: orange;
   font-size: 4em;
   text-decoration: none;
-  padding: .5em .5em;  
+  padding: .5em .5em;
 }
 
 .Profile-linkDL:hover{
@@ -483,7 +489,7 @@
 	text-decoration: none;
 	padding: .5em 1em;
 	border-radius: 2em;
-	margin-right: .5em;	
+	margin-right: .5em;
 }
 
 .Profile-link:active{
@@ -493,7 +499,7 @@
 	text-decoration: none;
 	padding: .5em 1em;
 	border-radius: 2em;
-	margin-right: .5em;	
+	margin-right: .5em;
 }
 
 /*Progress*/
@@ -638,7 +644,9 @@
 	margin-bottom: 1.8em;
 }
 
-
+.Work-image{
+height: 12em;
+}
 .Work-imageContainer{
 	margin: 0;
 }
@@ -646,7 +654,7 @@
 .Work-imageDescription{
 	font-size: 1.1em;
 	color: #515151;
-	font-style: italic;	
+	font-style: italic;
 
 }
 
@@ -689,6 +697,7 @@
   padding-left: .5em;
   padding-top: .5em;
   padding-bottom: .5em;
+  font-size: 1em;
 }
 
 
@@ -721,4 +730,34 @@
 }
 
 
+@media (max-width:650px) {
+  .MainMenu-list{
+    display: none;
+  }
+  .hide_a{
+  display: none;
+}
+.Profile-link{
+  line-height: 2em;
+}
+.Header-image{
+height: 10em;
+}
+.Experience-work, .Experience-item, .Education-item, .Work-item {
+	margin-right: 0;
+ width: 90vw;
+}
+.u-containerDefault{
+  width: 90vw;
+}
 
+.Work-image{
+height: 8em;
+}
+.Footer-form{
+  width: 90vw;
+}
+.Footer-formInput, .Footer-textArea{
+font-size: .8em;
+}
+}
