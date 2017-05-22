@@ -344,9 +344,6 @@
   margin-top: 20px;
 }
 
-.borrar{
-}
-
 .u-containerDefault{
   /*width: 100vw;*/
   margin: 0 auto;
@@ -380,9 +377,6 @@
 	/*line-height: 3.75em;*/
 	line-height: 3.6em;
 	padding: 1em 1em;
-
-
-
 }
 .MainMenu-link:hover{
 	color: #f00038;
@@ -774,6 +768,9 @@ border-bottom: solid 2px #d9534f;
 .MainMenu-list{
   display: none;
 }
+/*body{
+background: red;
+}*/
 .hide_a{
 display: none;
 
