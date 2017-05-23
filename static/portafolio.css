@@ -34,7 +34,7 @@
 }
 
 .u-containerDefault{
-  /*width: 100vw;*/
+  width: 96%;
   margin: 0 auto;
 }
 
@@ -339,13 +339,20 @@
 /* Work */
 .Work{
   margin-top:  2em;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
 }
-
+.work-item-cont{
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .Work-item{
-  display: inline-block;
-  margin-right: 1.8em;
-  margin-bottom: 1.8em;
+  width: 200px;
+  height: 200px;
+  padding: 3em;
 }
 
 .escala:hover {
@@ -367,11 +374,14 @@
 }
 .Work-imageContainer{
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Work-imageDescription{
   font-size: 1.1em;
-  /*color: #515151;*/
+  padding: 1em 0;
   font-style: italic;
 }
 
@@ -423,6 +433,7 @@
   padding-top: .5em;
   padding-bottom: .5em;
   font-size: 1em;
+  max-width: 360px;
 }
 
 
@@ -491,13 +502,13 @@
   .Header-image{
     height: 10em;
   }
-  .Experience-work, .Experience-item, .Education-item, .Work-item {
+  .Experience-work, .Experience-item, .Education-item {
     margin-right: 0;
     width: 90vw;
   }
 
   .Work-image{
-    height: 8em;
+    height: 10em;
     transition: .5s;
   }
   .Footer-form{
@@ -506,5 +517,6 @@
   .Footer-formInput, .Footer-textArea{
     font-size: .8em;
     transition: .5s;
+    max-width: 300px;
   }
 }
