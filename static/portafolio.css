@@ -19,8 +19,7 @@
   color: #FFF;
 }
 
-
-.Header-button.is-active{display:block}
+.Header-button.is-active{display:none;}
 
 .MainMenu.is-active{left:0}
 
@@ -207,6 +206,11 @@ margin: 1em;
   padding: .5em 1em;
   border-radius: 2em;
   margin-right: .5em;
+}
+
+.download-container{
+  display: flex;
+  justify-content: center;
 }
 
 /*Progress*/
@@ -474,13 +478,27 @@ margin: 1em;
   .Header-button{
     display: block;
   }
-
-  .MainMenu-list{
-    display: none;
+  .Header-button.is-active {
+    display: block;
   }
-  /*body{
-  background: red;
+  .MainMenu-list {
+    display: block;
+    position: fixed;
+    padding-top: 60px;
+    background: rgba(134, 8, 8, 0.98);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .MainMenu-item {
+      display: block;
+      width: 100vw;
+  }
+  /*.MainMenu-list{
+    display: none;
   }*/
+
   .hide_a{
     display: none;
 
@@ -510,7 +528,9 @@ margin: 1em;
     margin-right: 0;
     width: 90vw;
   }
-
+  .Work-item {
+  padding: 2em 1em;
+}
   .Work-image{
     height: 10em;
     transition: .5s;
@@ -524,8 +544,8 @@ margin: 1em;
     max-width: 300px;
   }
 }
-@media (max-width:680px) {
+@media (max-width:380px) {
   .Footer-formInput, .Footer-textArea{
-    max-width: 270px;
+    max-width: 220px;
   }
 }

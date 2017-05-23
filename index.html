@@ -13,7 +13,7 @@
 	<header id="yo" class="Header">
 		<button class="Header-button is-active icon-menu5" id="showMenu"></button>
 		<button class="Header-button icon-close" id="hideMenu"></button>
-		<nav class="MainMenu">
+		<nav class="MainMenu" id="menu">
 			<ul class="MainMenu-list">
 				<li class="MainMenu-item"><a class="MainMenu-link" href="#yo">Yo</a></li>
 				<li class="MainMenu-item"><a class="MainMenu-link" href="#perfil">Perfil</a></li>
@@ -28,7 +28,7 @@
 			<img  class="Header-image" src="images/avatar.jpg" alt="Imagen Personal" >
 			<figcaption class="Header-imageDescription">
 				<p id="perfil" class="Header-name"><span class="icon-fingerprint"></span>Natanael León</p></figcaption>
-			</figure>
+		</figure>
 		</header>
 		<section class="Profile">
 			<div class="u-containerDefault">
@@ -76,132 +76,123 @@
 							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"> ILLUSTRATOR</div>
 						</div>
 					</article>
-					<section id="Descarga">
-						<div class="u-containerDefault"><h2 class="u-title"><span class="tittle_"><span class="icon-get_app"> </span>Descargar CV</span></h2></div>
-						<!-- <a class="Profile-linkDL" href="#"><span class="icon-file-word"></span></a> -->
-						<a class="Profile-linkDL" href="#"><span class="icon-file-pdf"></span></a>
-					</section>
-				</section>
+		</section>
+		<section id="Descarga">
+			<div class="u-containerDefault"><h2 class="u-title"><span class="tittle_"><span class="icon-get_app"> </span>Descargar CV</span></h2></div>
+			<div class="download-container">
+ <!-- <a class="Profile-linkDL" href="#"><span class="icon-file-word"></span></a> -->
+			<a class="Profile-linkDL" href="#"><span class="icon-file-pdf"></span></a>
 			</div>
-			<section id="educacion" class="Education">
+		</section>
+		<section id="educacion" class="Education">
 				<div class="u-containerDefault">
-					<h2 class="Education-tittle u-title"><span class="tittle_"><span class="icon-school"> </span>Educación</span></h2></div>
-					<article class="Education-item"  >
-						<h3>PRACTICAS PROFECIONALES</h3>
-						<p><span class="Education-year">2011</span></p>
-						<p>Como alumno del Instituto Tecnológico Superior de Motul desarrollé: Módulos Administrativos, Eventos, Membresías, Area Privada y módulo de suscripción pago atreves de PayPal del Sitio WEB alconpat.org para la Asociación ALCONPAT Internacional.</p>
-					</article>
+					<h2 class="Education-tittle u-title"><span class="tittle_"><span class="icon-school"> </span>Educación</span></h2>
+				</div>
+				<article class="Education-item"  >
+					<h3>PRACTICAS PROFECIONALES</h3>
+					<p><span class="Education-year">2011</span></p>
+					<p>Como alumno del Instituto Tecnológico Superior de Motul desarrollé: Módulos Administrativos, Eventos, Membresías, Area Privada y módulo de suscripción pago atreves de PayPal del Sitio WEB alconpat.org para la Asociación ALCONPAT Internacional.</p>
 				</article>
 				<article class="Education-item">
 					<h3>Introducción a la Fotogrametría Arquitectural Digital (FAD)</h3>
 					<p><span class="Education-year">Julio 2011.</span></p>
 					<p>Actividad: Curso.</p>
 				</article>
-
 				<article class="Education-item">
 					<h3>Instituto Tecnológico Superior de Motul, “Ingeniería en Sistemas Computacionales”</h3>
 					<p><span class="Education-year">2007 a 2011</span></p>
 					<p>Título recibido: Ingeniero En Sistemas Computacionales (18 de mayo 2012)</p>
 				</article>
-			</article>
-			<article class="Education-item">
-				<h3>Curso: Desarrollo WEB</h3>
-				<p><span class="Education-year">Septiembre 2015</span></p>
-				<p>Actividad: Certificado de aprobación online.</p>
-			</article>
-		</article>
-		<article class="Education-item">
-			<h3>Curso: HTML5 & CSS3</h3>
-			<p><span class="Education-year">Octubre 2015</span></p>
-			<p>Actividad: Certificado de aprobación online.</p>
-		</article>
-	</article>
-	<article class="Education-item">
-		<h3>Curso: JavaScript & Jquery.</h3>
-		<p><span class="Education-year">Octubre 2015</span></p>
-		<p>Actividad: Certificado de aprobación online.</p>
-	</article>
-</article>
-<article class="Education-item">
-	<h3>Curso: Introducción a linux.</h3>
-	<p><span class="Education-year">Octubre 2015</span></p>
-	<p>Actividad: Certificado de aprobación online.</p>
-</article>
-</article>
-<article class="Education-item">
-	<h3>Carrera de Administración de Servidores & Devops</h3>
-	<p><span class="Education-year">Octubre 2015</span></p>
-	<p>Actividad: Certificado de aprobación online.</p>
-</article>
-</article>
-<article class="Education-item">
-	<h3>Curso de SQL y MySQL</h3>
-	<p><span class="Education-year">Enero 2016</span></p>
-	<p>Actividad: Certificado de aprobación online.</p>
-</article>
-</section>
-
-<section id="Experiencia" class="Experience">
-	<div class="u-containerDefault">
-		<h2 class="Experience-tittle u-title"><span class="tittle_"><span class="icon-settings"> </span>Experiencia profesional</span></h2></div>
-
-		<article class="Experience-item">
-			<h3>Empresa: Constructora del Ing. Jesús Armando Rivera Uc.</h3>
-			<p><span class="Experience-work">Feb-2010 a Jul-2010</span></p>
-			<p>Puesto: Programador y Administración De Base de Datos.<br>
-				Actividad: Programación, manejos de base de datos y libros contables.</p>
+				<article class="Education-item">
+					<h3>Curso: Desarrollo WEB</h3>
+					<p><span class="Education-year">Septiembre 2015</span></p>
+					<p>Actividad: Certificado de aprobación online.</p>
+				</article>
+				<article class="Education-item">
+					<h3>Curso: HTML5 & CSS3</h3>
+					<p><span class="Education-year">Octubre 2015</span></p>
+					<p>Actividad: Certificado de aprobación online.</p>
+				</article>
+				<article class="Education-item">
+					<h3>Curso: JavaScript & Jquery.</h3>
+					<p><span class="Education-year">Octubre 2015</span></p>
+					<p>Actividad: Certificado de aprobación online.</p>
+				</article>
+				<article class="Education-item">
+					<h3>Curso: Introducción a linux.</h3>
+					<p><span class="Education-year">Octubre 2015</span></p>
+					<p>Actividad: Certificado de aprobación online.</p>
+				</article>
+				<article class="Education-item">
+					<h3>Carrera de Administración de Servidores & Devops</h3>
+					<p><span class="Education-year">Octubre 2015</span></p>
+					<p>Actividad: Certificado de aprobación online.</p>
+				</article>
+				<article class="Education-item">
+					<h3>Curso de SQL y MySQL</h3>
+					<p><span class="Education-year">Enero 2016</span></p>
+					<p>Actividad: Certificado de aprobación online.</p>
+				</article>
+		</section>
+		<section id="Experiencia" class="Experience">
+			<div class="u-containerDefault">
+				<h2 class="Experience-tittle u-title"><span class="tittle_"><span class="icon-settings"> </span>Experiencia profesional</span></h2>
+			</div>
+			<article class="Experience-item">
+				<h3>Empresa: Constructora del Ing. Jesús Armando Rivera Uc.</h3>
+				<p><span class="Experience-work">Feb-2010 a Jul-2010</span></p>
+				<p>Puesto: Programador y Administración De Base de Datos.<br>Actividad: Programación, manejos de base de datos y libros contables.</p>
 			</article>
 			<article class="Experience-item">
 				<h3>KB/TEL TELECOMUNICACIONES S.A. de C.V.</h3>
 				<p><span class="Experience-work">03-Dic-2013 a 30-Dic-2014.</span></p>
 				<p>Puesto: Proyectista.<br>
 					Actividad: Desarrollo de proyectos del área de Ingeniería.</p>
+			</article>
+			<article class="Experience-item">
+				<h3>Empresa: Asociación Latinoamericana de Control de Calidad, Patología y Recuperación de la Construcción Internacional (ALCONPAT-Internacional).</h3>
+				<p><span class="Experience-work">Jul-2010 a la fecha.</span></p>
+				<p>Puesto: Coordinador Tecnológico y Programador WEB.<br>Actividad: Desarrollo de módulos y actualización constante del sitio WEB.</p>
+			</article>
+		</section>
+		<section id="trabajo" class="Work">
+			<div class="u-containerDefault">
+				<h2 class="Work-tittle u-title"><span class="tittle_"><span class="icon-work"> </span>Portafolio</span></h2>
+			</div>
+			<div class="work-item-cont">
+				<article class="Work-item">
+					<figure class="Work-imageContainer">
+						<img class="Work-image img_round" src="images/alconpatmundo.png" alt="WEB ALCONPAT INT">
+						<figcaption class="Work-imageDescription escala"><a href="http://www.alconpat.org" target="_blank">Alconpat Internacional</a></figcaption>
+					</figure>
 				</article>
-				<article class="Experience-item">
-					<h3>Empresa: Asociación Latinoamericana de Control de Calidad, Patología y Recuperación de la Construcción Internacional (ALCONPAT-Internacional).</h3>
-					<p><span class="Experience-work">Jul-2010 a la fecha.</span></p>
-					<p>Puesto: Coordinador Tecnológico y Programador WEB.<br>
-						Actividad: Desarrollo de módulos y actualización constante del sitio WEB.</p>
-					</article>
-				</section>
-
-				<section id="trabajo" class="Work">
-					<div class="u-containerDefault">
-						<h2 class="Work-tittle u-title"><span class="tittle_"><span class="icon-work"> </span>Portafolio</span></h2></div>
-						<div class="work-item-cont">
-							<article class="Work-item">
-								<figure class="Work-imageContainer">
-									<img class="Work-image img_round" src="images/alconpatmundo.png" alt="WEB ALCONPAT INT">
-									<figcaption class="Work-imageDescription escala"><a href="http://www.alconpat.org" target="_blank">Alconpat Internacional</a></figcaption>
-								</figure>
-							</article>
-							<article class="Work-item">
-								<figure class="Work-imageContainer">
-									<img class="Work-image img_round" src="images/EMUI.png" alt="TEMAS EMUI 3.1">
-									<figcaption class="Work-imageDescription escala"><a href="https://nathanleon.github.io/tutorial_hwt/" target="_blank">Tutorial Temas EMUI</a></figcaption>
-								</figure>
-							</article>
-							<article class="Work-item">
-								<figure class="Work-imageContainer">
-									<img class="Work-image img_round" src="images/invie-web.png" alt="Invie">
-									<figcaption class="Work-imageDescription escala"><a href="http://nathanleon.github.io/invie-nathan/" target="_blank">INVIE</a></figcaption>
-								</figure>
-							</article>
-							<article class="Work-item">
-								<figure class="Work-imageContainer">
-									<img class="Work-image img_round" src="images/alconpat-mdt.png" alt="New Design AI">
-									<figcaption class="Work-imageDescription escala"><a href="https://nathanleon.github.io/alconpat-mdt/" target="_blank">Alconpat Int RD</a></figcaption>
-								</figure>
-							</article>
-							<article class="Work-item">
-								<figure class="Work-imageContainer">
-									<img class="Work-image img_round" src="images/cv.png" alt="Mi CV">
-									<figcaption class="Work-imageDescription escala"><a href="http://nathanleon.github.io/cv-nathan/" target="_blank">Mi CV</a></figcaption>
-								</figure>
-							</article>
-						</div>
-					</section>
-					<footer id="contacto" class="Footer">
+				<article class="Work-item">
+					<figure class="Work-imageContainer">
+						<img class="Work-image img_round" src="images/EMUI.png" alt="TEMAS EMUI 3.1">
+						<figcaption class="Work-imageDescription escala"><a href="https://nathanleon.github.io/tutorial_hwt/" target="_blank">Tutorial Temas EMUI</a></figcaption>
+					</figure>
+				</article>
+				<article class="Work-item">
+					<figure class="Work-imageContainer">
+						<img class="Work-image img_round" src="images/invie-web.png" alt="Invie">
+						<figcaption class="Work-imageDescription escala"><a href="http://nathanleon.github.io/invie-nathan/" target="_blank">INVIE</a></figcaption>
+					</figure>
+				</article>
+				<article class="Work-item">
+					<figure class="Work-imageContainer">
+						<img class="Work-image img_round" src="images/alconpat-mdt.png" alt="New Design AI">
+						<figcaption class="Work-imageDescription escala"><a href="https://nathanleon.github.io/alconpat-mdt/" target="_blank">Alconpat Int RD</a></figcaption>
+					</figure>
+				</article>
+				<article class="Work-item">
+					<figure class="Work-imageContainer">
+						<img class="Work-image img_round" src="images/cv.png" alt="Mi CV">
+						<figcaption class="Work-imageDescription escala"><a href="http://nathanleon.github.io/cv-nathan/" target="_blank">Mi CV</a></figcaption>
+					</figure>
+				</article>
+			</div>
+		</section>
+<footer id="contacto" class="Footer">
 						<section>
 							<h3 class="Footer-title"><span class="icon-mail_outline"> </span>Contacto</h3>
 							<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto.</p>
@@ -213,5 +204,34 @@
 							<button class="Footer-button">Contactar <span class="icon-send"></span></button>
 						</form>
 					</footer>
-				</body>
-				</html>
+	<script src="hammer.min.js"></script>
+	<script>
+		var $buttonShowMenu = document.getElementById('showMenu');
+		var $buttonHideMenu = document.getElementById('hideMenu');
+		var $menu = document.getElementById('menu');
+
+		var $body = document.querySelector('body');
+
+		var body = new Hammer($body);
+
+		var showMenu = function(){
+				$buttonShowMenu.classList.remove('is-active');
+				$buttonHideMenu.classList.add('is-active');
+				$menu.classList.add('is-active');
+			}
+
+		var hideMenu = function(){
+				$buttonShowMenu.classList.add('is-active');
+				$buttonHideMenu.classList.remove('is-active');
+				$menu.classList.remove('is-active');
+			}
+
+			$buttonShowMenu.addEventListener("click", showMenu);
+
+			$buttonHideMenu.addEventListener("click", hideMenu);
+
+			body.on('panright', showMenu)
+			body.on('panleft', hideMenu)
+	</script>
+</body>
+</html>
