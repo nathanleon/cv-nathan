@@ -352,7 +352,7 @@
 .Work-item{
   width: 200px;
   height: 200px;
-  padding: 3em;
+  padding: 3em 1.6em;
 }
 
 .escala:hover {
