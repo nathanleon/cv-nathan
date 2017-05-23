@@ -149,7 +149,10 @@
   vertical-align: text-bottom;
   line-height: 28px;
 }
-
+.Profile-description{
+font-size: 1.2em;
+margin: 1em;
+}
 .Profile-skill{
   text-align: center;
   display: inline-block;
@@ -518,5 +521,10 @@
     font-size: .8em;
     transition: .5s;
     max-width: 300px;
+  }
+}
+@media (max-width:680px) {
+  .Footer-formInput, .Footer-textArea{
+    max-width: 270px;
   }
 }
