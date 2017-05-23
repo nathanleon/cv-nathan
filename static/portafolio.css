@@ -347,7 +347,7 @@ margin: 1em;
   align-items: space-around;
 }
 .work-item-cont{
-  width: 96%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -404,6 +404,7 @@ margin: 1em;
   background-position: center;
   background-size: cover;
   padding: 2em 0;
+  margin-top: 3.5em;
   text-align: center;
 
 }
