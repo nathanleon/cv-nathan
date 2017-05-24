@@ -45,11 +45,11 @@
   z-index: 20;
   background: #1E1E1E;
   text-align: center;
-  height: 3.75em;
+  height: 61px;
   position: fixed;
   left: 0;
-  right: 0;
-  top: 0;
+  right: -1px;
+  top: -1px;
 }
 
 .MainMenu-list{
@@ -497,6 +497,7 @@ margin: 1em;
       display: inline-block;
       background: black;
       width: 200px;
+      height: 60px;
       padding: 0;
   }
   .hide_a{
