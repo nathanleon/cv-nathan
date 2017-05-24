@@ -39,7 +39,7 @@
 .Header-button.is-active{display:none;}
 
 
-/*.MainMenu.is-active{left:0}*/
+
 
 .MainMenu{
   z-index: 20;
@@ -486,12 +486,15 @@ margin: 1em;
     background: rgba(134, 8, 8, 0.98);
     top: 60px;
     bottom: 0;
-    /*left: -200px;*//*offcanvas*/
+    left: -200px;/*offcanvas*/
   }
+.MainMenu-list.is-active{
+transition: .3s;
+left: 0;
+}
   .MainMenu-item {
       display: block;
       background-color: rgba(134, 8, 8, 0.98);
-      /*width: 100vw;*/
   }
   .MainMenu-link {
       display: inline-block;
