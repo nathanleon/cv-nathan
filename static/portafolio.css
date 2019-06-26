@@ -170,6 +170,29 @@ margin: 1em;
   border-radius: 2em;
   margin-right: .5em;
 }
+.Profile-linkx2{
+  background: orange;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 5em;
+  margin-right: 1em;
+}
+
+.Profile-linkx2:hover{
+  background: red;
+  color: white;
+  /* font-weight: normal; */
+  text-decoration: none;
+  /* padding: .5em 1em; */
+  /* border-radius: 2em; */
+  /* margin-right: .5em; */
+  transition: .3s;
+}
+
+.Profile-linkx2 .icon-twitter, .Profile-linkx2 .icon-facebook2, .Profile-linkx2 .icon-github  {
+  font-size: 1.5em;
+}
 .profile_link_container{
   display: flex;
   flex-direction: row;
@@ -200,6 +223,7 @@ margin: 1em;
   transition: .3s;
 }
 
+
 .Profile-link:active{
   background: gray;
   color: white;
@@ -209,7 +233,15 @@ margin: 1em;
   border-radius: 2em;
   margin-right: .5em;
 }
-
+.Profile-linkx2:active{
+  background: gray;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  padding: .5em 1em;
+  border-radius: 2em;
+  margin-right: .5em;
+}
 .download-container{
   display: flex;
   justify-content: center;
@@ -479,6 +511,7 @@ margin: 1em;
   }
   .MainMenu-list {
     z-index: 41;
+    display: none;
     /*display: block;*/
     position: absolute;
     width: 200px;
